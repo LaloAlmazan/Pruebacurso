@@ -194,4 +194,20 @@ Ejecuta el comando git push servidorlocal master para enviar tus cambios;
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
+1) Ejecuta el comando git log -p para ver, junto a cada commit, los cambios realizados;
 
+2) Ahora ejecuta el comando git log --oneline;
+
+3) Ejecuta el comando git diff {hash del commit de merge con lista} .. {hash del último commit realizado};
+
+4) Realiza algún cambio (pequeño) en index.html;
+
+5) Ejecuta el comando git diff y ve este cambio;
+
+6) Deshaga este último cambio;
+
+7) Ejecute el comando git tag -a v0.1.0 para crear un tag en tu código;
+
+8) Ejecuta el comando git push origin v0.1.0 para enviar este tag a GitHub;
+
+9) Abre la página del repositorio de GitHub que creaste y verifica la pestaña Releases.
